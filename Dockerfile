@@ -1,6 +1,7 @@
 # ----------------------------------
 # Environment: debian:buster-slim
 # If you are using Pterodactyl: Minimum Panel Version: 0.7.X
+# Change the FROM quay.io/parkervcp/pterodactyl-images:base_debian to other, if you aren't using Pterodactyl.
 # ----------------------------------
 FROM quay.io/parkervcp/pterodactyl-images:base_debian
 
