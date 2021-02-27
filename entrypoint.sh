@@ -1,7 +1,8 @@
 #!/bin/bash
 cd /home/container
 
-# This entrypoint.sh is a modification of the entrypoint made by: Software-Noob, to him credit for making differential Auto-Update scheme.
+# This entrypoint.sh is to uMod Servers (Universal) Application.
+# Software-Noob, to him credit for making differential Auto-Update scheme.
 
 # Exporting: Dotnet Path / Library Path (Umod error prevent)
 export PATH="$PATH:$HOME/.dotnet/tools"
