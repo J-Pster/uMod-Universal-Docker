@@ -13,3 +13,7 @@ You can download the files: ``Dockerfile`` and the ``entrypoint.sh``, put them i
 Link: https://hub.docker.com/r/castblacking/umod-universal
 
 Pull: ``docker pull castblacking/umod-universal``
+
+## Credits
+CastBlacKing
+Software-Noob
