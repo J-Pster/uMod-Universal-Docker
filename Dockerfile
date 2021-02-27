@@ -1,6 +1,6 @@
 # ----------------------------------
 # Environment: debian:buster-slim
-# Minimum Panel Version: 0.7.X
+# If you are using Pterodactyl: Minimum Panel Version: 0.7.X
 # ----------------------------------
 FROM quay.io/parkervcp/pterodactyl-images:base_debian
 
@@ -17,7 +17,7 @@ RUN apt update -y \
     && apt update -y \  
     && apt install -y dotnet-sdk-5.0 aspnetcore-runtime-5.0 libgdiplus
 
-## add container user
+## add container user (Pterodactyl)
 USER    container
 RUN ln -s /home/container/ /nonexistent
 ENV USER=container HOME=/home/container
